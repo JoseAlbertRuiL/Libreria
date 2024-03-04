@@ -12,7 +12,7 @@ public class ConsoleReader {
     public static int readInt(String prompt) {
         System.out.print(prompt);
         while (!scanner.hasNextInt()) {
-            System.out.print("Por favor, ingrese un número válido: ");
+            System.out.print("Ingrese un numero: ");
             scanner.next();
         }
         return scanner.nextInt();
@@ -29,6 +29,3 @@ public class ConsoleReader {
         return nameAndLastName;
     }
 }
-
-
-
