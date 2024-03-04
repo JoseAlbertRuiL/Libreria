@@ -24,7 +24,7 @@ public class LibraryManagementSystem {
                 case 7 ->
                     System.out.println("Saliendo del programa");
                 default ->
-                    System.out.println("Opción no válida");
+                    System.out.println("Opción no valida");
             }
         } while (opcion != 7);
     }
